@@ -1,4 +1,10 @@
-#include <stdio.h>
+#include<stdlib.h>
+
+int add(int a , int b)
+{
+	return (a+b);
+}
+
 
 
 
@@ -12,9 +18,10 @@ int main(){
 
 
 
-
+add();
 
 
     return 0; 
 }
+
 
