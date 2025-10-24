@@ -2,11 +2,13 @@
 
 
 
-
+int mod(int a,int b){
+   return(a%b);
+}
 
 
 int main(){
-
+   printf("Mod feture from modBranch %i",mod(2,5));
 
 
 
@@ -15,3 +17,4 @@ int main(){
 
     return 0; 
 }
+
